@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.column-container {
+  background: #ffffff;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  height: calc(100vh - 72px);
+  margin : 0;
+  
+}
+
+.column-header {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+.title {
+  float: left;
+  width: 36vw;
+}
+
+.column-content {
+  float: left;
+  width: 40%;
+  padding: 20px;
+}
+
+header {
+
+  /* align-items: center; */
+  justify-content: space-between;
+  position: fixed;
+}
+
+header h1 {
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.6vw;
+  line-height: 3.6vw;
+  
+  color: #000000;
+  
+}
+
+header h2{
+  text-align: justify;
+  text-justify: inter-word;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4.2vw;
+  line-height: 4.2vw;
+  color: #A27378;
+}
+
+p{
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 16px;
+  line-height: 24px;
+  color: #021718;
+  width: 100%;
+  margin-bottom: 48px;
+}
+
+/* Cherry tree */
+
+.cherry-tree{
+  position: fixed;
+}
+
+.cherry-tree img{
+  width: 42%;
+  position: fixed;
+  bottom: 0;
+  left: 35px;
+  /* border: black 1pt solid; */
+}
+
+.blossoms img:hover + .word-cloud{
+  display: block;
+}
+
+
+ .blossoms img:hover{
+  transform: translateY(-10px);
+  opacity: 0.2;
+} 
+
+.word-cloud{
+  display: block;
+}
+
+.blossoms img{
+  transition: 400ms;
+}
+
+
