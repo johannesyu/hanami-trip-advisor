@@ -1,5 +1,4 @@
-﻿hanami spots,,,,,,,,,,,,
-location_id,name,rate,review_count,city,region_jp,region_en,address,latitude,longitude,href,surrounding,attraction
+﻿location_id,name,rate,review_count,city,region_jp,region_en,address,latitude,longitude,href,surrounding,attraction
 14,祇園歓楽街,45,7275,京都府,近畿地方,Kinki,"""東山区, 京都市""",34.9923961,135.7757965,https://www.tripadvisor.jp/Attraction_Review-g298564-d321451-Reviews-Gion-Kyoto_Kyoto_Prefecture_Kinki.html#REVIEWS,city,shrine
 87,二条城,45,6975,京都府,近畿地方,Kinki,"""中京区二条城町541, 京都市""",35.0151077,135.7477768,https://www.tripadvisor.jp/Attraction_Review-g298564-d321408-Reviews-Nijo_Castle-Kyoto_Kyoto_Prefecture_Kinki.html#REVIEWS,city,castle
 16,大阪城公園,40,6924,大阪府,近畿地方,Kinki,"""大阪城1, 中央区""",34.6865287,135.5264693,https://www.tripadvisor.jp/Attraction_Review-g14127623-d1407217-Reviews-Osaka_Castle_Park-Chuo_Osaka_Osaka_Prefecture_Kinki.html#REVIEWS,city,castle
