@@ -5,7 +5,7 @@ async function drawChart(container){
    var response = await fetch('https://raw.githubusercontent.com/johannesyu/hanami-trip-advisor/main/data/japan-topojson.json')
 	var country = await response.json()
 
-   response = await fetch('https://raw.githubusercontent.com/johannesyu/hanami-trip-advisor/main/data/overview.csv')
+   response = await fetch('https://raw.githubusercontent.com/johannesyu/hanami-trip-advisor/main/data/overview - 1.csv')
 	var csvString = await response.text()       
 
    //parse csv
