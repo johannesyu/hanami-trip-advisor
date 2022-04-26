@@ -179,7 +179,7 @@ p{
 .w2 {
   left: calc(35px + 16.8vw) ;
   bottom: 11vw;
-  font-size: 1,9vw;
+  font-size: 1.9vw;
   transform: rotate(60deg);
 }
 
