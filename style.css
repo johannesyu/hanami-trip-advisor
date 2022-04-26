@@ -104,7 +104,6 @@ p{
 
 
  .blossoms img:hover{
-  transform: translateY(-10px);
   opacity: 0;
 } 
 
