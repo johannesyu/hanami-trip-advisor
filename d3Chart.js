@@ -120,7 +120,7 @@ async function drawChart(){
    
 
    // const color = '#f9ccdf'
-   const petal_size = 1.5
+   const petal_size = 1.2
    for (const spot of selectedHanamiSpots) {
 
    
