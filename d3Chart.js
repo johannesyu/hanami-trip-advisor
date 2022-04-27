@@ -56,8 +56,8 @@ async function drawChart(){
   const canvas = document.getElementById("japan-container")
   const context = canvas.getContext("2d");   
 
-  var height = canvas.height
-  var width = canvas.width
+  var height = canvas.height * 1.15
+  var width = canvas.width * 1.15
 
   
   var subRegions = topojson.feature(country, country.objects.japan)
