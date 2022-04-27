@@ -110,15 +110,19 @@ p{
 
 
 .word-cloud{
-  opacity: 0%;
+  /* opacity: 0%; */
   display: block;
 }
 
 .blossoms img{
-  display:none;
+  /* display:none; */
   transition: 400ms;
 }
 
+
+.buds img{
+  display: none
+}
 
 .sun img{
   display:none;
