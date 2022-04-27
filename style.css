@@ -111,7 +111,7 @@ p{
 
 .word-cloud{
   /* opacity: 0%; */
-  display: block;
+  display: none;
 }
 
 .blossoms img{
@@ -160,7 +160,7 @@ p{
 
 /* real word cloud */
 .real-word{
-  display:none;
+  /* display:none; */
   position: fixed;
   font-family: '新細明體';
   bottom: 0;
