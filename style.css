@@ -25,7 +25,7 @@ body {
 
 .column-header {
   float: left;
-  width: 50%;
+  width: 45%;
   padding: 20px;
 }
 
@@ -37,7 +37,7 @@ body {
 .column-content {
   position: relative;
   float: left;
-  width: 40%;
+  width: 50%;
   padding: 20px;
 }
 
