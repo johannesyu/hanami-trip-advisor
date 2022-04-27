@@ -125,7 +125,7 @@ p{
 }
 
 .sun img{
-  display:none;
+  /* display:none; */
   position: fixed;
   width: 42%;
   bottom: 0;
