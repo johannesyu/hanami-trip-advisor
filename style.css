@@ -132,9 +132,14 @@ p{
   left: 35px;
 }
 
-/* .quote img:hover{
+
+.quote img:hover + .sun img{
+  opacity: 100%;
+}
+
+.quote img:hover{
   opacity: 50%;
-} */
+}
 
 /* dropdown list */
 
@@ -147,15 +152,10 @@ p{
 
 .quote img{
   height: 90vh;
-  /* margin-left: 40%; */
-  transition: 400ms;
-}
-
-.quote{
+  margin-left: 40%;
   margin-top: 50px;
-  margin-left: auto;
   margin-right: auto;
-  width: 20vw;
+  transition: 400ms;
 }
 
 /* real word cloud */
@@ -165,12 +165,13 @@ p{
   font-family: '新細明體';
   bottom: 0;
   color: #f9ccdf;
-  transition: 100ms   
+  transition: 100ms
+  
 }
 
 .real-word:hover{
   font-weight: 900;
-  z-index: 1;
+  
   color: #fe91bf;
   text-shadow: -1px 1px 0 #ffffff, 0 0 1px #ffffff;
   transform: scale(1.5);
@@ -335,64 +336,4 @@ p{
   bottom: 22.25vw;
   font-size: .9vw;
   transform: rotate(-23deg);
-}
-
-/* tooltip */
-
-.tooltiptext {
-  visibility: hidden;
-  inline-size: min-content;
-  background-color: black;
-  color: #fff;
-  text-align: left;
-  border-radius: 6px;
-  padding: 5px;
-  font-size: 8px;
-  text-shadow: none;
-  font-family: 'Arial';
-  font-weight: 100;
-
-  /* Position the tooltip */
-  position: fixed;
-  z-index: 1;
-  opacity: 0;
-  transition: opacity 200ms;
-  transition-delay:100ms;
-}
-
-.real-word:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
-}
-
-.quote:hover .quote-tooltiptext {
-  visibility: visible;
-  opacity: 1;
-}
-
-
-.quote:hover img {
-  opacity: 50%;
-}
-
-.quote-tooltiptext {
-  /* visibility: hidden; */
-  inline-size: min-content;
-  background-color: black;
-  color: #fff;
-  text-align: left;
-  border-radius: 6px;
-  padding: 5px;
-  font-size: 12px;
-  text-shadow: none;
-  font-family: 'Arial';
-
-  /* Position the tooltip */
-  position: fixed;
-  z-index: 1;
-  opacity: 0;
-  transition: opacity 300ms;
-  transition-delay:100ms;
-
-  white-space: nowrap
 }
