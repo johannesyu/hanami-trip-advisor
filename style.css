@@ -10,7 +10,7 @@ html, body {
 
 
 body {
-  font-family: "Arial", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .column-container {
@@ -26,20 +26,12 @@ body {
 .column-header {
   float: left;
   width: 45%;
-  position: relative;
   padding: 20px;
 }
 
 .title {
   float: left;
   width: 36vw;
-  word-wrap: break-word;
-}
-
-.title p{
-  float: left;
-  width: 36vw;
-  word-wrap: break-word;
 }
 
 .column-content {
@@ -56,13 +48,13 @@ body {
 header {
 
   /* align-items: center; */
-  /* justify-content: space-between; */
+  justify-content: space-between;
   position: fixed;
 }
 
-header #h1 {
+header h1 {
   text-align: justify;
-  text-justify: inter-character;
+  text-justify: inter-word;
   font-family: 'Arial';
   font-style: normal;
   font-weight: 400;
@@ -73,14 +65,15 @@ header #h1 {
   
 }
 
-header #h2{
+header h2{
   text-align: justify;
-  text-justify: inter-character;
+  text-justify: inter-word;
   font-style: normal;
   font-weight: bold;
   font-size: 4.2vw;
   line-height: 4.2vw;
   color: #A27378;
+  transform: translateY(-3.5vw);
 }
 
 h3{
@@ -154,16 +147,15 @@ p{
 
 .quote img{
   height: 90vh;
-  display: block;
-  margin: auto;
-  transition: 600ms;
+  /* margin-left: 40%; */
+  transition: 400ms;
 }
 
 .quote{
-  margin-top: 5vh;
+  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
-  width: 28vh;
+  width: 20vw;
 }
 
 /* real word cloud */
