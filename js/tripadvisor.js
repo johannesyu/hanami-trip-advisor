@@ -1,10 +1,10 @@
 async function selectChanged(){
   const context = document.getElementById("japan-container").getContext("2d");   
   context.clearRect(0, 0, context.canvas.width, context.canvas.height);
-  drawChart();
+  drawChart_tripadvisor();
 }
 
-async function drawChart(){
+async function drawChart_tripadvisor(){
    //fetch and store the data 
    var response = await fetch('https://raw.githubusercontent.com/johannesyu/hanami-trip-advisor/main/data/japan-topojson.json')
 	var country = await response.json()
@@ -78,12 +78,12 @@ async function drawChart(){
    .filter(d => !isNaN(d.point[0]))
 
    var hanamiAttr_selected = document.getElementById("attr").value;
-   var hanamiRegion_selected = document.getElementById("region").value;
+   // var hanamiRegion_selected = document.getElementById("region").value;
    var hanamiSetting_selected = document.getElementById("setting").value;
 
    var selectedHanamiSpots = projectedHanamiSpots
    .filter(d => (hanamiAttr_selected === "" || d.attr === hanamiAttr_selected) && 
-       (hanamiRegion_selected === "" || d.region_en === hanamiRegion_selected) &&
+      //  (hanamiRegion_selected === "" || d.region_en === hanamiRegion_selected) &&
        (hanamiSetting_selected === "" || d.setting === hanamiSetting_selected))
 
 

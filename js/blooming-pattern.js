@@ -1098,6 +1098,9 @@ var trendMay = [
 
 // This code is from Louise Moxy
 // Create SVG and padding for the chart
+
+function drawChart_bloomingpattern() {
+
 const svg = d3
   .select("#chart")
   .append("svg")
@@ -1707,3 +1710,4 @@ chart
   .attr("font-family", "sans-serif")
   .attr("font-size", 12) 
   .text("April and May")
+}
